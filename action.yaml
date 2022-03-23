@@ -19,3 +19,4 @@ runs:
   args:
     - ${{ inputs.config }}
     - ${{ inputs.tag }}
+    - ${{ inputs.requirements }}
