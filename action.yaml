@@ -7,6 +7,9 @@ inputs:
   tag:  # id of input
     description: 'tag'
     required: true
+  requirements:
+    description: 'requirements'
+    required: true
 outputs:
   outputs: # id of output
     description: 'outputs'
