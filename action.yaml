@@ -27,4 +27,4 @@ runs:
     - ${{ inputs.tag }}
     - ${{ inputs.requirements }}
     - ${{ inputs.pkgs }}
-    - ${{ input.source }}
+    - ${{ inputs.source }}
