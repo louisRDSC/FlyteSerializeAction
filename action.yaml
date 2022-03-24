@@ -10,6 +10,12 @@ inputs:
   requirements:
     description: 'requirements'
     required: true
+  pkgs:
+    description: 'pkgs'
+    required: true
+  source:
+    description: 'source'
+    required: true
 outputs:
   outputs: # id of output
     description: 'outputs'
@@ -20,3 +26,5 @@ runs:
     - ${{ inputs.config }}
     - ${{ inputs.tag }}
     - ${{ inputs.requirements }}
+    - ${{ inputs.pkgs }}
+    - ${{ input.source }}
